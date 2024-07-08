@@ -1,4 +1,4 @@
-import { Hero, Services, Download, Provider } from "../section";
+import { Hero, Services, Download, Provider, Article} from "../section";
 const Home = () => {
   return (
     <>
@@ -6,6 +6,7 @@ const Home = () => {
       <Services />
       <Provider/>
       <Download />
+      <Article/>
     </>
   );
 };

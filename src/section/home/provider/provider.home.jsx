@@ -26,7 +26,7 @@ const Download = () => {
 
           <Button
             variant="outlined"
-            className="!text-[--color-primary] !border-[--color-primary] !w-52 !h-14 !rounded-full !font-bold !text-lg !mt-10">
+            className="!text-[--color-primary] !border-[--color-primary] !w-52 !h-14 !rounded-full !font-bold !text-lg !mt-10 !normal-case">
             Learn more
           </Button>
         </Box>

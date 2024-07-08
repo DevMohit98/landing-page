@@ -117,7 +117,7 @@ const Services = () => {
         <Box className="flex justify-center items-center">
           <Button
             variant="outlined"
-            className="!text-[--color-primary] !border-[--color-primary] !w-52 !h-14 !rounded-full !font-bold !text-lg !mt-16">
+            className="!text-[--color-primary] !border-[--color-primary] !w-52 !h-14 !rounded-full !font-bold !text-lg !mt-16 !normal-case">
             Learn more
           </Button>
         </Box>

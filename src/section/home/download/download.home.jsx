@@ -1,5 +1,6 @@
 import { Box, Typography, Divider, Button } from "@mui/material";
 import download from "../../../assets/images/png/download.png";
+import SouthIcon from '@mui/icons-material/South';
 
 const Download = () => {
   return (
@@ -24,8 +25,8 @@ const Download = () => {
 
           <Button
             variant="outlined"
-            className="!text-[--color-primary] !border-[--color-primary] !w-52 !h-14 !rounded-full !font-bold !text-lg !mt-10">
-            Download
+            className="!text-[--color-primary] !border-[--color-primary] !w-52 !h-14 !rounded-full !font-bold !text-lg !mt-10 !normal-case">
+            Download <SouthIcon className="!pl-2 !mt-1"/>
           </Button>
         </Box>
         <Box className="order-1 md:order-last">
