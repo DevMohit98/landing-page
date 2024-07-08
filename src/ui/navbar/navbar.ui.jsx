@@ -41,12 +41,12 @@ const Navbar = () => {
         className="!flex justify-center items-center">
         <Typography
           component="span"
-          className="!h-10 !w-10 !rounded-full !bg-[--color-primary] !text-white !text-3xl flex items-center justify-center">
+          className="!h-10 !w-10 !rounded-full !bg-[--color-primary] !text-white !text-xl md:!text-3xl flex items-center justify-center">
           T
         </Typography>
         <Typography
           as="span"
-          className="!pl-2 !font-bold !text-2xl !text-[#233348]">
+          className="!pl-2 !font-bold !text-lg md:!text-2xl !text-[#233348]">
           Trafalgar
         </Typography>
       </Typography>
@@ -83,12 +83,12 @@ const Navbar = () => {
             <Box as="div" className="!flex !items-center">
               <Typography
                 component="span"
-                className="!h-10 !w-10 !rounded-full !bg-[--color-primary] !text-white !text-3xl flex items-center justify-center">
+                className="!h-10 !w-10 !rounded-full !bg-[--color-primary] !text-white !text-xl md:!text-3xl flex items-center justify-center">
                 T
               </Typography>
               <Typography
                 as="span"
-                className="!pl-2 !font-bold !text-2xl !text-[#233348]">
+                className="!pl-2 !font-bold !text-lg md:!text-2xl !text-[#233348]">
                 Trafalgar
               </Typography>
             </Box>
@@ -97,7 +97,7 @@ const Navbar = () => {
             {navItems.map((item) => (
               <Button
                 key={item.link}
-                className="!text-[--color-nav] !text-lg !normal-case"
+                className="!text-[--color-nav] !text-sm  md:!text-lg !normal-case"
                 component={NavLink}
                 to={item.path}
                 style={({ isActive }) => ({
