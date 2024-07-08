@@ -1,5 +1,5 @@
 import { Box, Typography, Button } from "@mui/material";
-import hero1 from "../../assets/images/png/hero1.png";
+import hero1 from "../../../assets/images/png/hero1.png";
 const Hero = () => {
   return (
     <Box className="flex justify-center items-center flex-col md:flex-row m-5">

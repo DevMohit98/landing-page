@@ -1,7 +1,10 @@
-import { Hero } from "../section";
+import { Hero, Services } from "../section";
 const Home = () => {
   return (
-   <Hero/>
-  )
+    <>
+      <Hero />
+      <Services />
+    </>
+  );
 };
 export default Home;
