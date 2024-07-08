@@ -2,7 +2,7 @@ import { Box, Typography, Button } from "@mui/material";
 import hero1 from "../../../assets/images/png/hero1.png";
 const Hero = () => {
   return (
-    <Box className="flex justify-center items-center flex-col md:flex-row m-5">
+    <Box className="flex justify-center items-center  m-5">
       <Box className="max-w-6xl flex flex-col md:flex-row">
         <Box className="order-last md:order-1 mt-5 md:mt-0">
           <Typography

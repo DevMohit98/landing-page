@@ -118,7 +118,7 @@ const Services = () => {
           <Button
             variant="outlined"
             className="!text-[--color-primary] !border-[--color-primary] !w-52 !h-14 !rounded-full !font-bold !text-lg !mt-16">
-            Load more
+            Learn more
           </Button>
         </Box>
       </Box>
