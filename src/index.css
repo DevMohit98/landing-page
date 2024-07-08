@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Mulish";
+    src: url("./assets/fonts/Mulish/Mulish-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+:root{
+  --color-primary:#458FF6;
+  --color-dark:#000000;
+  --color-gray:#7D7987;
+  --color-nav:#1F1534;
+}
+body{
+  font-family: 'Mulish', Courier, monospace;
+}
